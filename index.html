@@ -3,12 +3,22 @@
   <head>
     <title>Home | About me</title>
 
+    <!-- Specify what character set is being used-->
+    <meta charset="UTF-8" />
+
     <!-- For modern responsive-->
-    <meta name="viewport" content="width=devicce-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Meta Data-->
     <meta name="description" content="A website about Osa" />
     <meta name="authot" content="Osa Aimola" />
+
+    <!-- Style(s)-->
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- Script(s)-->
+    <!-- addign DEFER will deleya loading the javascript till after page elements are loaded. Javascript can only manipulate elements that are loaded before it is-->
+    <script src="js/scripts.js" type="text/javascript" defer></script>
   </head>
   <body>
     <h1>Home</h1>
@@ -28,5 +38,20 @@
       <li>CSS3</li>
       <li>PHP</li>
     </ul>
+    <h2>A Photo For You All</h2>
+    <p>
+      Take a look at this cool image that describes what my WFH setup will be a
+      variation of!
+    </p>
+    <figure>
+      <img
+        src="./img/computer-screen.jpg"
+        alt="A work desk setup. Two computer monitors, a headphone and a mobile phone are visible."
+        titile="A work desk setup"
+      />
+      <figcaption>
+        Photo from pexels.com
+      </figcaption>
+    </figure>
   </body>
 </html>
